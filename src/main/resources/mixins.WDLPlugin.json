@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "me.third.right.worldDownloader.mixins",
+  "refmap": "mixins.WDLPlugin.refmap.json",
+  "minVersion": "0.4-SNAPSHOT",
+  "priority": 2147483645,
+  "mixinPriority": 2147483645,
+  "mixins": [
+    "IAnvilChunkLoader"
+  ],
+  "client": [
+    "IChunkProviderClient"
+  ]
+}
